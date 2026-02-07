@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor - The AI Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/APP_ICON_25D_DARK.png">
+</head>
+
+<body>
+
+    <!-- Top Navigation Bar -->
+    <header class="site-header">
+        <div class="container nav-container">
+            <a href="#" class="logo" aria-label="Cursor">
+                <!-- SVG Logo Placeholder -->
+                <img src="assets/APP_ICON_25D_DARK.png" alt="Cursor Logo" width="24" height="24">
+                Cursor
+            </a>
+            <nav class="main-nav">
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#blog">Blog</a>
+                <a href="#forum">Forum</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#" class="btn btn--secondary">Sign In</a>
+                <a href="#" class="btn btn--primary">Download</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero section-spacing">
+            <div class="container">
+                <h1 class="hero-title">The AI-first Code Editor</h1>
+                <p class="hero-subtitle">Build software faster with an editor designed for pair-programming with AI.</p>
+                <div class="hero-cta">
+                    <a href="#" class="btn btn--primary btn--large">Download for Mac</a>
+                </div>
+                <!-- Hero Image Placeholder -->
+                <!-- Hero Image Placeholder -->
+                <div class="hero-backdrop">
+                    <img src="assets/background-painting.png" alt="" class="hero-bg-img">
+                    <div class="hero-image-wrapper sdk-interface">
+                        <!-- SDK Header -->
+                        <div class="sdk-header">
+                            <div class="window-controls">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="window-title">Cursor</div>
+                        </div>
+
+                        <!-- SDK Body -->
+                        <div class="sdk-body">
+                            <!-- Left Sidebar -->
+                            <div class="sdk-sidebar">
+                                <div class="sidebar-section">
+                                    <div class="sidebar-title">READY FOR REVIEW 6</div>
+                                    <div class="sidebar-item active">
+                                        <div class="item-icon-circle check"></div>
+                                        <div class="item-content">
+                                            <div class="item-title">Build Landing Page</div>
+                                            <div class="item-subtitle">Done. Fonts preload in the hea...</div>
+                                        </div>
+                                        <div class="item-time">now</div>
+                                    </div>
+                                    <div class="sidebar-item">
+                                        <div class="item-icon-circle check"></div>
+                                        <div class="item-content">
+                                            <div class="item-title">Analyze Tab vs Agent ...</div>
+                                            <div class="item-subtitle">All set! We now track focus sh...</div>
+                                        </div>
+                                        <div class="item-time">now</div>
+                                    </div>
+                                    <div class="sidebar-item">
+                                        <div class="item-icon-circle check"></div>
+                                        <div class="item-content">
+                                            <div class="item-title">Plan Mission Control</div>
+                                            <div class="item-subtitle"><span class="green-text">+20</span> <span
+                                                    class="red-text">-3</span> · Drafted implementati...</div>
+                                        </div>
+                                        <div class="item-time">now</div>
+                                    </div>
+                                    <div class="sidebar-item">
+                                        <div class="item-icon-circle check"></div>
+                                        <div class="item-content">
+                                            <div class="item-title">PyTorch MNIST Experi...</div>
+                                            <div class="item-subtitle">PyTorch MNIST Experiments</div>
+                                        </div>
+                                        <div class="item-time">10m</div>
+                                    </div>
+                                    <div class="sidebar-item">
+                                        <div class="item-icon-circle check"></div>
+                                        <div class="item-content">
+                                            <div class="item-title">Set up Cursor Rules fo...</div>
+                                            <div class="item-subtitle">Set up Cursor Rules for Dashb...</div>
+                                        </div>
+                                        <div class="item-time">30m</div>
+                                    </div>
+                                    <div class="sidebar-item">
+                                        <div class="item-icon-circle check"></div>
+                                        <div class="item-content">
+                                            <div class="item-title">Bioinformatics Tools</div>
+                                            <div class="item-subtitle"><span class="green-text">+135</span> <span
+                                                    class="red-text">-21</span> · Bioinformatics Tools</div>
+                                        </div>
+                                        <div class="item-time">45m</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Middle Chat -->
+                            <div class="sdk-chat">
+                                <div class="chat-header">
+                                    <span class="chat-title">Build Landing Page</span>
+                                </div>
+                                <div class="chat-scroll-area">
+                                    <div class="user-message">
+                                        make a landing page based on attached docs explaining what we do
+                                    </div>
+                                    <div class="system-status">
+                                        <div class="status-line">Read <span class="file-link">about-acme.md</span></div>
+                                        <div class="status-line">Read <span
+                                                class="file-link">brand-guidelines.pdf</span></div>
+                                        <div class="status-line">Thought <span class="thought-time">6s</span></div>
+                                    </div>
+                                    <div class="ai-message">
+                                        I'll create a minimal, serif-based landing page that matches your brand voice.
+                                    </div>
+                                    <div class="code-block-preview">
+                                        <div class="file-icon">📄</div>
+                                        <div class="file-name">app/page.tsx</div>
+                                        <div class="diff-stat"><span class="green-text">+52</span> <span
+                                                class="red-text">-0</span></div>
+                                    </div>
+                                    <div class="code-block-preview">
+                                        <div class="file-icon">📄</div>
+                                        <div class="file-name">app/globals.css</div>
+                                        <div class="diff-stat"><span class="green-text">+18</span> <span
+                                                class="red-text">-0</span></div>
+                                    </div>
+                                    <div class="ai-message">
+                                        Done. Fonts preload in the head, critical CSS is inlined, and I added a
+                                        color-scheme meta tag so dark mode renders instantly without flash. 280ms first
+                                        paint.
+                                    </div>
+                                </div>
+                                <div class="chat-input-placeholder">
+                                    <div class="input-text">Plan, search, build anything...</div>
+                                    <div class="input-controls">
+                                        <div class="agent-pill">∞ Agent ⌄</div>
+                                        <div class="model-pill">Composer 1 ⌄</div>
+                                        <div class="submit-arrow">↑</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Right Preview -->
+                            <div class="sdk-preview">
+                                <div class="browser-bar">
+                                    <div class="nav-arrows">← → ↻</div>
+                                    <div class="url-bar">http://localhost:3000</div>
+                                    <div class="window-icon">□</div>
+                                </div>
+                                <div class="browser-content">
+                                    <div class="preview-page">
+                                        <h1 class="preview-logo">Acme Labs</h1>
+                                        <p class="preview-text">
+                                            Software creation is changing. We are a group of researchers, engineers, and
+                                            technologists inventing at the edge of what's useful and possible.
+                                        </p>
+                                        <p class="preview-text">
+                                            We have much to learn, try, and build.
+                                        </p>
+                                        <div class="preview-actions">
+                                            <button class="preview-btn">See projects</button>
+                                            <a href="#" class="preview-link">Join our team →</a>
+                                        </div>
+                                        <div class="preview-list">
+                                            <div class="preview-list-item">
+                                                <div class="col-year">2026</div>
+                                                <div class="col-title">Secure codebase indexing</div>
+                                                <div class="col-status">Published</div>
+                                            </div>
+                                            <div class="preview-list-item active">
+                                                <div class="col-year">2026</div>
+                                                <div class="col-title">Semantic search</div>
+                                                <div class="col-status">Published</div>
+                                            </div>
+                                            <div class="preview-list-item">
+                                                <div class="col-year">2025</div>
+                                                <div class="col-title">Reinforcement learning</div>
+                                                <div class="col-status">Published</div>
+                                            </div>
+                                            <div class="preview-list-item">
+                                                <div class="col-year">2024</div>
+                                                <div class="col-title">Shadow workspaces</div>
+                                                <div class="col-status">Published</div>
+                                            </div>
+                                            <div class="preview-list-item">
+                                                <div class="col-year">2024</div>
+                                                <div class="col-title">Multi-agent collaboration</div>
+                                                <div class="col-status">Published</div>
+                                            </div>
+                                            <div class="preview-list-item">
+                                                <div class="col-year">2023</div>
+                                                <div class="col-title">Context-aware completions</div>
+                                                <div class="col-status">Published</div>
+                                            </div>
+                                            <div class="preview-list-item">
+                                                <div class="col-year">2023</div>
+                                                <div class="col-title">Intelligent code navigation</div>
+                                                <div class="col-status">Published</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Trusted By / Logos -->
+        <section class="trusted-by section-spacing">
+            <div class="container">
+                <p class="trusted-label">Trusted by engineers at</p>
+                <div class="logo-grid">
+                    <!-- Updated Logos -->
+                    <img src="assets/microsoft.svg" alt="Microsoft" class="logo-item">
+                    <img src="assets/Perplexity.svg" alt="Perplexity" class="logo-item">
+                    <img src="assets/Anthropic.svg" alt="Anthropic" class="logo-item">
+                    <img src="assets/Lovable.svg" alt="Lovable" class="logo-item">
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Sections (Split) -->
+        <section class="features-split section-spacing">
+            <div class="container">
+                <!-- Feature 1 -->
+                <!-- Feature 1 -->
+                <div class="feature-block">
+                    <div class="feature-text">
+                        <h2 class="feature-title">Build software faster</h2>
+                        <p class="feature-description">
+                            Cursor is an AI-powered code editor that understands your codebase. Write code, fix bugs,
+                            and refactor with an AI that knows your project inside out.
+                        </p>
+                    </div>
+                    <div class="feature-visual">
+                        <img src="assets/feature-build.png" alt="Build software faster" class="feature-image">
+                    </div>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-block feature-block--reverse">
+                    <div class="feature-text">
+                        <h2 class="feature-title">Chat with your codebase</h2>
+                        <p class="feature-description">
+                            No more copy-pasting code. Ask questions about your entire repository and get answers that
+                            reference specific files and functions.
+                        </p>
+                    </div>
+                    <div class="feature-visual">
+                        <img src="assets/feature-chat.png" alt="Chat with your codebase" class="feature-image">
+                    </div>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-block">
+                    <div class="feature-text">
+                        <h2 class="feature-title">Familiar experience</h2>
+                        <p class="feature-description">
+                            Cursor is a fork of VS Code. Import your extensions, themes, and keybindings in one click.
+                            It feels just like home, but better.
+                        </p>
+                    </div>
+                    <div class="feature-visual">
+                        <img src="assets/feature-familiar.png" alt="Familiar experience" class="feature-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature Cards -->
+        <section class="features-grid section-spacing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">More power at your fingertips</h2>
+                </div>
+                <div class="grid-layout">
+                    <!-- Card 1 -->
+                    <div class="feature-card">
+                        <h3 class="card-title">Privacy Mode</h3>
+                        <p class="card-description">Code with confidence involving sensitive data. Use our local mode to
+                            ensure your code never leaves your machine.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="feature-card">
+                        <h3 class="card-title">Docs Integration</h3>
+                        <p class="card-description">Automatically index external documentation. Just paste a link, and
+                            Cursor understands the library instantly.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="feature-card">
+                        <h3 class="card-title">Copilot++</h3>
+                        <p class="card-description">Experience the next evolution of autocomplete. It predicts your next
+                            edit, not just the next word.</p>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="feature-card">
+                        <h3 class="card-title">Auto-Debug</h3>
+                        <p class="card-description">Fix terminal errors with a single click. Let Cursor analyze the
+                            stack trace and propose a solution.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials section-spacing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Loved by engineers</h2>
+                </div>
+                <div class="grid-layout testimonial-grid">
+                    <div class="feature-card testimonial-card">
+                        <p class="testimonial-quote">"Cursor has completely changed how I write code. It's like pair
+                            programming with a super senior engineer who knows my entire codebase."</p>
+                        <p class="testimonial-author">Alex, Senior Engineer at OpenAI</p>
+                    </div>
+                    <div class="feature-card testimonial-card">
+                        <p class="testimonial-quote">"The diffs are incredibly accurate. I rarely have to fix what it
+                            generates. It's the first AI tool that actually feels faster than typing."</p>
+                        <p class="testimonial-author">Sarah, Frontend Lead at Vercel</p>
+                    </div>
+                    <div class="feature-card testimonial-card">
+                        <p class="testimonial-quote">"I was skeptical at first, but now I can't imagine coding without
+                            it. It handles the boilerplate so I can focus on architecture."
+                        </p>
+                        <p class="testimonial-author">Mike, Backend Developer at Stripe</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Cases / Stories -->
+        <section class="use-cases section-spacing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Built for every workflow</h2>
+                </div>
+                <div class="grid-layout">
+                    <div class="feature-card">
+                        <h3 class="card-title">Refactoring</h3>
+                        <p class="card-description">Rewrite entire modules with natural language instructions. "Refactor
+                            this class to use the factory pattern."</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 class="card-title">Debugging</h3>
+                        <p class="card-description">Paste stack traces and let AI find the root cause. Fix bugs in
+                            seconds, not hours.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3 class="card-title">New Features</h3>
+                        <p class="card-description">Generate boilerplate and implementation logic in seconds. "Create a
+                            React component for a user dashboard."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Changelog -->
+        <section class="changelog section-spacing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Changelog</h2>
+                </div>
+                <div class="changelog-list">
+                    <div class="changelog-item">
+                        <span class="changelog-date">Oct 24</span>
+                        <p class="changelog-text">Added support for custom context rules.</p>
+                    </div>
+                    <div class="changelog-item">
+                        <span class="changelog-date">Oct 12</span>
+                        <p class="changelog-text">Improved Command K latency by 40%.</p>
+                    </div>
+                    <div class="changelog-item">
+                        <span class="changelog-date">Sep 28</span>
+                        <p class="changelog-text">Introduced Cursor Tab for multi-line autocomplete.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team / About -->
+        <section class="team section-spacing">
+            <div class="container">
+                <div class="feature-block feature-block--reverse">
+                    <div class="feature-text">
+                        <h2 class="feature-title">Built by a small team</h2>
+                        <p class="feature-description">
+                            We're a team of engineers and researchers building the tool we want to use. We're hiring
+                            designers and engineers.
+                        </p>
+                        <div style="margin-top: 24px;">
+                            <a href="#" class="btn btn--secondary">See Careers</a>
+                        </div>
+                    </div>
+                    <div class="feature-visual">
+                        <img src="assets/team.png" alt="Cursor Team" class="feature-image">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Final CTA -->
+            <section class="final-cta section-spacing">
+                <div class="container text-center">
+                    <h2 class="hero-title" style="font-size: 48px;">Ready to build faster?</h2>
+                    <div class="hero-cta">
+                        <a href="#" class="btn btn--primary btn--large">Download Cursor</a>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <footer class="site-footer section-spacing">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="#" class="logo" style="margin-bottom: 24px;">Cursor</a>
+                <p style="color: var(--text-secondary); font-size: 14px;">The AI-first code editor.</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Product</h4>
+                <a href="#" class="footer-link">Download</a>
+                <a href="#" class="footer-link">Pricing</a>
+                <a href="#" class="footer-link">Changelog</a>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Company</h4>
+                <a href="#" class="footer-link">About</a>
+                <a href="#" class="footer-link">Careers</a>
+                <a href="#" class="footer-link">Blog</a>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Resources</h4>
+                <a href="#" class="footer-link">Forum</a>
+                <a href="#" class="footer-link">Documentation</a>
+                <a href="#" class="footer-link">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
