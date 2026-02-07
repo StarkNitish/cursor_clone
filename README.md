@@ -11,6 +11,7 @@ You'll find `index.html` for the main structure and `style.css` for all the visu
 
 ### How to check it out
 Super easy! You can either open the `index.html` file in your web browser.
+Or you can chck it on https://cursor-clone.nitishkumar.cloud/
 
 That's it!
 
